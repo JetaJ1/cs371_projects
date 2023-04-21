@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-fs.readFile("./PA3support/Cryptanalysis/ciphertext.txt", (error, output) => doNext(error, output));
+fs.readFile("./PA3support/Cryptanalysis/ciphertext.txt", (error, output) => crackCipher(error, output));
 
-// Source that might be helpful - displays Enlish letter frequencies
+// Source that might be helpful - displays English letter frequencies
 // https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html
 const alphabet = [
 	{ letter: "a", replacement: "c" },
@@ -33,7 +33,7 @@ const alphabet = [
 	{ letter: "z", replacement: "x" }
 ];
 
-function doNext(error, output) {
+function crackCipher(error, output) {
 	const outputAsStr = output.toString().toLowerCase();
 	let decipheredStr = outputAsStr;
 
@@ -70,8 +70,8 @@ function doNext(error, output) {
 			letter.replacement = "-";
 		}
 
-		// We don't use Regex `.replace()` because letters that get replaced earlier
-		// which are later selected for replacement will be overwritten
+		// We don't use Regex `.replace()` because letters that *are* replaced
+		// which are later selected *for* replacement will be overwritten
 		for (let j = 0; j < outputAsStr.length; j++) {
 			const char = outputAsStr[j];
 
