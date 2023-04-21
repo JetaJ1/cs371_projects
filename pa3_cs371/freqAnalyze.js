@@ -2,6 +2,8 @@ const fs = require('fs');
 
 fs.readFile("./PA3support/Cryptanalysis/ciphertext.txt", (error, output) => doNext(error, output));
 
+// Source that might be helpful - displays Enlish letter frequencies
+// https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html
 const alphabet = [
 	{ letter: "a", replacement: "" },
 	{ letter: "b", replacement: "" },
@@ -50,14 +52,16 @@ function doNext(error, output) {
 		proportions.push(occurance / numCharacters);
 	}
 
-	console.log(numCharacters);
-	console.log(occurances);
+	// console.log(numCharacters);
+	// console.log(occurances);
 
 	for (let i = 0; i < proportions.length; i++) {
 		const letter = alphabet[i];
 		const proportion = proportions[i];
 		console.log(`The letter ${ letter.letter } appears ${ (proportion * 100).toFixed(2) }% of the time`);
 	}
+
+	console.log("");
 
 	for (let i = 0; i < alphabet.length; i++) {
 		const letter = alphabet[i];
