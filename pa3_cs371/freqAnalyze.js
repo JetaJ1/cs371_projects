@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile("./Cryptanalysis/ciphertext.txt", (error, output) => doNext(error, output));
+fs.readFile("./PA3support/Cryptanalysis/ciphertext.txt", (error, output) => doNext(error, output));
 
 const alphabet = [
 	{ letter: "a", replacement: "" },
