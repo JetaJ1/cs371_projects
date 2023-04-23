@@ -1,0 +1,7 @@
+Running freqAnalyze.py
+1. Enter the command `python3 freqAnalyze.py <path to text file>` into the Linux terminal
+	a. In the above command, replace <path to text file> with the actual path to the text file you wish to analyze
+
+Running decipher.js
+1. If JavaScript Node is not already installed on your machine, install it by typing the command `sudo apt install nodejs`
+2. Enter the command `node decipher.js` into the Linux terminal
