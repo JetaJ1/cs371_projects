@@ -3,9 +3,10 @@ Linkblue ID: jba231
 Statement: I created cipher.js and solved the cipher using an online source for most common English letters alongside Dakota's freqAnalyze.py.
 I also assisted in file creation and organization for our group, such as creating writeup.txt and documentation.txt and the formats for those documents.
 
-Name:
-Linkblue ID:
-Statement:
+Name: Dakota Morgan
+Linkblue ID: djmo230
+Statement: I created freAnalyze.py which takes an input file path argument and finds the frequency of letters, bigrams, and trigrams.
+I also created the initial github repo that we all coordinated our work on.
 
 Name:
 Linkblue ID:
