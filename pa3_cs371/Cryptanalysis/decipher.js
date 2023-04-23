@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile("./PA3support/Cryptanalysis/ciphertext.txt", (error, output) => decipher(error, output));
+fs.readFile("./PA3support/ciphertext.txt", (error, output) => decipher(error, output));
 
 // Source that might be helpful - displays English letter frequencies
 // https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html
