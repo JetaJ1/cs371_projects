@@ -1,0 +1,12 @@
+Name: Jonathan Baker
+Linkblue ID: jba231
+Statement: I created cipher.js and solved the cipher using an online source for most common English letters alongside Dakota's freqAnalyze.py.
+I also assisted in file creation and organization for our group, such as creating writeup.txt and documentation.txt and the formats for those documents.
+
+Name:
+Linkblue ID:
+Statement:
+
+Name:
+Linkblue ID:
+Statement:
