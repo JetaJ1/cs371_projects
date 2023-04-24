@@ -2,7 +2,9 @@ Design and implementation of freqAnalyze.py
 1. 
 
 Design and implementation of decipher.js
-1. 
+1. Decipher.js uses some simple JavaScript to load `ciphertext.txt` into memory and a manually-created alphabetMapping
+to exchange each letter in the ciphertext with its deciphered equivalent. Decipher.js only requires fs, which contains
+file system methods, and NodeJS, which is a runtime environment for JavaScript. 
 
 
 
@@ -20,4 +22,10 @@ Self-evaluation and interesting observations for freqAnalyze.py
 1. 
 
 Self-evaluation and interesting observations for decipher.js
-1. 
+1. I believe decipher.js is quite compact and simple. I wrote several iterations of decipher.js until I was satisfied
+with its simplicity and accuracy. The very first letters I deciphered were "t", "h", and "e". "e" is the most common letter,
+and "t" and "h" were also quite common as they altogether make up the word "the", which is the most common English word.
+
+In addition, I noticed that it was much easier to manually decipher words by replacing still-ciphered letters with the same character.
+In this case, I replaced still-ciphered letters with a dash: "-". This way I could easily distinguish between ciphered and
+deciphered letters and figure out words (and by extension letters) with greater ease.
