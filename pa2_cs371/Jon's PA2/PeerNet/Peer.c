@@ -39,8 +39,6 @@ int numPeers = 0;
 struct peerInfo peers[MAXPEERS];
 
 
-// TODO: fix bug where an existing peer that closes and reopens connection cannot connect
-// TODO: balance which peer new peers are sent if current server is full (e.g. an even split to each peer from server?)
 int main(int argc, char *argv[]) {
 
   // INIT
