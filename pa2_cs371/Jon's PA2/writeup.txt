@@ -1,6 +1,8 @@
 Name: Jonathan Baker
 Linkblue ID: jba231
-Statement: 
+Statement: I worked on the main server loop, creating a portal for new users to join the network. I also created
+the rudimentary `Send()` and `Recv()` paradigm for our peer network where each `send()` is accompanied by a wait for an ack
+from the other to ensure the client and server wait for each other before continuing.
 
 Name: Dakota Morgan
 Linkblue ID: djmo230
