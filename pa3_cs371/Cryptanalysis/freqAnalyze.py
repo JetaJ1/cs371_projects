@@ -2,7 +2,7 @@ from collections import Counter
 import sys
 
 def filterAlpha(c):
-    if c.isalpha():
+    if c.isalpha() and c.isascii():                     # Must be both alpha (a letter) and ascii (English)
         return True
     else:
         return False
@@ -32,7 +32,7 @@ else:
 # f = open("./PA3support/hamlet.txt", "r")
 # f = open("./PA3support/merchantofvenice.txt", "r")
 
-f = open(file_path, "r")
+f = open(file_path, "r", errors="ignore")               # Ignore errors, specifically in `merchantofvenice.txt`
 test_str = f.read() 
 f.close()
 
