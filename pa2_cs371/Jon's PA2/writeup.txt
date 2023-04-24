@@ -10,4 +10,4 @@ Statement:
 
 Name: Graham Stephens
 Linkblue ID: gst247
-Statement: 
+Statement: I worked on the message propagation function for this project. I also facilitated group communication and synergy by connecting group members together.
