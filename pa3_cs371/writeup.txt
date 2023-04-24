@@ -10,4 +10,4 @@ I also created the initial github repo that we all coordinated our work on.
 
 Name: Graham Stephens
 Linkblue ID: gst247
-Statement:
+Statement: I worked on testing and error-checking all code for the project. I also facilitated group coordination through intitial group creation and by putting all group members in contact with one another.
