@@ -8,6 +8,6 @@ Linkblue ID: djmo230
 Statement: I created freAnalyze.py which takes an input file path argument and finds the frequency of letters, bigrams, and trigrams.
 I also created the initial github repo that we all coordinated our work on.
 
-Name:
-Linkblue ID:
+Name: Graham Stephens
+Linkblue ID: gst247
 Statement:
