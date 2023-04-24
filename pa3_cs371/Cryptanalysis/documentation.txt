@@ -2,7 +2,7 @@ Design and implementation of freqAnalyze.py
 1. 
 
 Design and implementation of decipher.js
-1. Decipher.js uses some simple JavaScript to load `ciphertext.txt` into memory and a manually-created alphabetMapping
+1. Decipher.js uses some simple JavaScript to load `ciphertext.txt` into memory, and a manually-created alphabetMapping
 to exchange each letter in the ciphertext with its deciphered equivalent. Decipher.js only requires fs, which contains
 file system methods, and NodeJS, which is a runtime environment for JavaScript. 
 
