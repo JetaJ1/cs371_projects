@@ -1,5 +1,12 @@
 Design and implementation of freqAnalyze.py
-1. 
+1. When impementing freqAnalyze.py I opted to take the input file as an argument from the command line.
+   The provided file path is then read into a string, and converted to lowercase to ensure case insensitivity.
+   To create the collection of grams, the zip function is used along with the map and join functions.
+   The zip function splits the string into either single, double, or triple pairs of letters which are stored in a tupple,
+   then joined into a single string. This provides all letters, bigrams, and trigrams in the string.
+   These grams are then filtered for pairs only containing english letters. 
+   The grams are then counted using the Counter python library, converted to a list, and sorted in descending order.
+   Finally all grams are printed side-by-side using the zip function.
 
 Design and implementation of decipher.js
 1. Decipher.js uses some simple JavaScript to load `ciphertext.txt` into memory and a manually-created alphabetMapping
@@ -19,7 +26,10 @@ Running decipher.js
 
 
 Self-evaluation and interesting observations for freqAnalyze.py
-1. 
+1. When designing freqAnalyze.py I had to think of how to search for all n-grams in the text without necesarilly having to 
+   search all n-grams possible in the english language. Performance could quickly degrade if performing an exhaustive search.
+   I chose to implement my solution in python because I have familiarity with text processing in python, 
+   and I utilized several built-in python functions.
 
 Self-evaluation and interesting observations for decipher.js
 1. I believe decipher.js is quite compact and simple. I wrote several iterations of decipher.js until I was satisfied
