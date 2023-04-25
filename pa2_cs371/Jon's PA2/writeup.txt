@@ -6,7 +6,7 @@ from the other to ensure the client and server wait for each other before contin
 
 Name: Dakota Morgan
 Linkblue ID: djmo230
-Statement: 
+Statement: I worked on the client side of the project, including moving to the next peer if the server is full.
 
 Name: Graham Stephens
 Linkblue ID: gst247
