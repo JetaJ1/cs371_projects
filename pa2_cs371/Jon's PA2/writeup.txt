@@ -11,3 +11,11 @@ Statement:
 Name: Graham Stephens
 Linkblue ID: gst247
 Statement: I worked on the message propagation function for this project. I also facilitated group communication and synergy by connecting group members together.
+
+Problem 2 alternative test case observations:
+When testing our PeerNet program, we discovered that the program was unable to connect to the peer network if both the peer it was
+attempting to connect to and the first peer in its list were already connected to the maximum number of peers. We also found
+that a peer which disconnects from the network and then attempts to reconnect will fail. Finally, we determined that the way in which
+peers are added to the network is unbalanced. The initial (root) peer of the network has 2 peers in slots [0] and [1] that
+it could send new clients to, but since it always sends a new client to the peer in slot [0], the peer in slot [1] will only ever
+be connected to the root peer.
